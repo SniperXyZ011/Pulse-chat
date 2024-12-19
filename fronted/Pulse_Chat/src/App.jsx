@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import SideBar from "./components/SideBar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>Hello World</div>
-  )
+  return <div className="h-screen bg-sky-50">
+    <SideBar />
+  </div>;
 }
 
-export default App
+export default App;
