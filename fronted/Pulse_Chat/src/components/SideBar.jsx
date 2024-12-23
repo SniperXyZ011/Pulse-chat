@@ -3,7 +3,7 @@ export default function () {
     <div className="flex h-screen">
       <div className="w-20 flex flex-cols justify-center bg-blue-600 rounded-2xl  m-4">
         <div className="m-2"><Avatar /></div>
-        <div><img src="../images/bell.svg"/></div>
+        <div><img src={"/image/home.svg"}/></div>
       </div>
     </div>
   );
